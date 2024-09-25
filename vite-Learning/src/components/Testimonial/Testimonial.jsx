@@ -34,21 +34,6 @@ const TestimonialsData = [
   },
 ];
 
-// const node = document.getElementById('id')
-// scrollIntoView(node, {
-//     scrollMode: 'if-needed',
-//     block: 'nearest',
-//     inline: 'nearest',
-//   })
-  
-//   // same behavior as Element.scrollIntoViewIfNeeded(true) without the "IfNeeded" behavior
-//   // see: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoViewIfNeeded
-//   scrollIntoView(node, { block: 'center', inline: 'center' })
-//   // scrollMode is "always" by default
-  
-//   // smooth scroll if the browser supports it and if the element isn't visible
-//   scrollIntoView(node, { behavior: 'smooth', scrollMode: 'if-needed' })
-
 const Testimonial = () => {
   const setting = {
     dots: true,
